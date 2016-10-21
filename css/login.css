@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  list-style: none;
+}
+.login {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -15px;
+  border: 1px solid;
+  text-align: center;
+  line-height: 30px;
+}
+.login a {
+  color: #808080;
+  font-size: 16px;
+}
+.login a:hover {
+  color: #8b0000;
+  cursor: pointer;
+}
+.loginIn {
+  position: absolute;
+  width: 400px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -225px;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: none;
+}
+.loginIn form input {
+  display: block;
+  width: 350px;
+  height: 42px;
+  border: 1px solid #ddd;
+  margin: 50px auto 0;
+  font-size: 16px;
+}
+.box{
+    float:left;
+}
+.box p{
+    line-height: 2;
+}
